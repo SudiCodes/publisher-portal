@@ -1,69 +1,97 @@
 export const products = [
   {
+    id: 1,
     name: "Content King",
     category: "content distribution",
     language: "English",
     region: "USA",
     product_type: "web 3.0",
     price: 1000,
+    description: "The Content King offers top-tier content distribution services, reaching audiences globally. With a focus on web 3.0 technologies, we ensure your content reaches the right audience at the right time. Our services include content creation, distribution, and analytics.",
+    facebook_url: "https://www.facebook.com/contentking",
+    x_url: "https://www.x.com/contentking",
+    linkedin_url: "https://www.linkedin.com/company/contentking"
   },
   {
+    id: 2,
     name: "Distribución Total",
     category: "content distribution",
     language: "Spanish",
     region: "Spain",
     product_type: "Gambling",
     price: 800,
+    description: "Distribución Total ofrece servicios de distribución de contenido de primera categoría, llegando a audiencias globalmente. Con un enfoque en tecnologías web 3.0, aseguramos que su contenido llegue a la audiencia adecuada en el momento adecuado. Nuestros servicios incluyen creación de contenido, distribución y análisis.",
+    facebook_url: "https://www.facebook.com/distribuciontotal",
+    x_url: "https://www.x.com/distribuciontotal",
+    linkedin_url: "https://www.linkedin.com/company/distribuciontotal"
   },
   {
+    id: 3,
     name: "内容分发",
     category: "content distribution",
     language: "Chinese",
     region: "China",
     product_type: "adult",
     price: 1200,
+    description: "内容分发提供顶级的内容分发服务，全球触达受众。以 web 3.0 技术为重点，我们确保您的内容在正确的时间到达正确的受众。我们的服务包括内容创建、分发和分析。",
+    facebook_url: "https://www.facebook.com/内容分发",
+    x_url: "https://www.x.com/内容分发",
+    linkedin_url: "https://www.linkedin.com/company/内容分发"
   },
   {
+    id: 4,
     name: "AdMax",
     category: "Ads",
     language: "English",
     region: "UK",
     product_type: "web 3.0",
     price: 1500,
+    description: "AdMax offers comprehensive advertising solutions, leveraging cutting-edge web 3.0 technologies. We help you maximize your reach and ROI through targeted ad campaigns and analytics.",
+    facebook_url: "https://www.facebook.com/admax",
+    x_url: "https://www.x.com/admax",
+    linkedin_url: "https://www.linkedin.com/company/admax"
   },
   {
+    id: 5,
     name: "Publicité Plus",
     category: "Ads",
     language: "French",
     region: "France",
     product_type: "Gambling",
     price: 900,
+    description: "Publicité Plus propose des solutions publicitaires complètes, exploitant les technologies de pointe du web 3.0. Nous vous aidons à maximiser votre portée et votre ROI grâce à des campagnes publicitaires ciblées et des analyses approfondies.",
+    facebook_url: "https://www.facebook.com/publiciteplus",
+    x_url: "https://www.x.com/publiciteplus",
+    linkedin_url: "https://www.linkedin.com/company/publiciteplus"
   },
   {
+    id: 6,
     name: "Werbung Pro",
     category: "Ads",
     language: "German",
     region: "Germany",
     product_type: "adult",
     price: 1100,
+    description: "Werbung Pro bietet umfassende Werbelösungen und nutzt dabei modernste Web-3.0-Technologien. Wir helfen Ihnen, Ihre Reichweite und Ihren ROI durch gezielte Werbekampagnen und Analysen zu maximieren.",
+    facebook_url: "https://www.facebook.com/werbungpro",
+    x_url: "https://www.x.com/werbungpro",
+    linkedin_url: "https://www.linkedin.com/company/werbungpro"
   },
   {
+    id: 7,
     name: "Twitter Titan",
     category: "twitter influencer",
     language: "English",
     region: "USA",
     product_type: "web 3.0",
     price: 2000,
+    description: "Twitter Titan is the ultimate influencer marketing platform, connecting brands with influencers across the globe. With our cutting-edge web 3.0 technology, we ensure your message reaches the right audience.",
+    facebook_url: "https://www.facebook.com/twittertitan",
+    x_url: "https://www.x.com/twittertitan",
+    linkedin_url: "https://www.linkedin.com/company/twittertitan"
   },
   {
-    name: "ツイッター影響者",
-    category: "twitter influencer",
-    language: "Japanese",
-    region: "Japan",
-    product_type: "Gambling",
-    price: 1700,
-  },
-  {
+    id: 9,
     name: "트위터 인플루언서",
     category: "twitter influencer",
     language: "Korean",
@@ -72,6 +100,7 @@ export const products = [
     price: 1900,
   },
   {
+    id: 10,
     name: "Telegram Titan",
     category: "Telegram Influencer",
     language: "English",
@@ -80,6 +109,7 @@ export const products = [
     price: 1800,
   },
   {
+    id: 1,
     name: "Телеграм Инфлюенсер",
     category: "Telegram Influencer",
     language: "Russian",
@@ -88,6 +118,7 @@ export const products = [
     price: 1300,
   },
   {
+    id: 1,
     name: "مؤثر تلغرام",
     category: "Telegram Influencer",
     language: "Arabic",
@@ -96,6 +127,7 @@ export const products = [
     price: 1600,
   },
   {
+    id: 1,
     name: "YouTube Star",
     category: "Youtube influencers",
     language: "English",
@@ -104,6 +136,7 @@ export const products = [
     price: 2500,
   },
   {
+    id: 1,
     name: "Influencer de YouTube",
     category: "Youtube influencers",
     language: "Spanish",
@@ -112,6 +145,7 @@ export const products = [
     price: 2200,
   },
   {
+    id: 1,
     name: "Influenciador de YouTube",
     category: "Youtube influencers",
     language: "Portuguese",
@@ -120,6 +154,7 @@ export const products = [
     price: 2400,
   },
   {
+    id: 1,
     name: "InstaInfluencer",
     category: "instagram influencers",
     language: "English",
@@ -128,6 +163,7 @@ export const products = [
     price: 3000,
   },
   {
+    id: 1,
     name: "इंस्टाग्राम प्रभावकार",
     category: "instagram influencers",
     language: "Hindi",
@@ -136,6 +172,7 @@ export const products = [
     price: 2700,
   },
   {
+    id: 1,
     name: "Influencer di Instagram",
     category: "instagram influencers",
     language: "Italian",
@@ -144,6 +181,7 @@ export const products = [
     price: 2900,
   },
   {
+    id: 1,
     name: "IOC King",
     category: "IOC Listing",
     language: "English",
@@ -152,6 +190,7 @@ export const products = [
     price: 5000,
   },
   {
+    id: 1,
     name: "Listado IOC",
     category: "IOC Listing",
     language: "Spanish",
@@ -160,6 +199,7 @@ export const products = [
     price: 4500,
   },
   {
+    id: 1,
     name: "Liste IOC",
     category: "IOC Listing",
     language: "French",
@@ -168,6 +208,7 @@ export const products = [
     price: 4800,
   },
   {
+    id: 1,
     name: "Exchange Pro",
     category: "Exchange listing",
     language: "English",
@@ -176,6 +217,7 @@ export const products = [
     price: 10000,
   },
   {
+    id: 1,
     name: "交易所上市",
     category: "Exchange listing",
     language: "Chinese",
@@ -184,6 +226,7 @@ export const products = [
     price: 9500,
   },
   {
+    id: 1,
     name: "거래소 상장",
     category: "Exchange listing",
     language: "Korean",
@@ -192,6 +235,7 @@ export const products = [
     price: 9800,
   },
   {
+    id: 1,
     name: "Content Meister",
     category: "content distribution",
     language: "German",
@@ -200,6 +244,7 @@ export const products = [
     price: 1100,
   },
   {
+    id: 1,
     name: "Publicidade Total",
     category: "Ads",
     language: "Portuguese",
@@ -208,6 +253,7 @@ export const products = [
     price: 1000,
   },
   {
+    id: 1,
     name: "Influenceur Twitter",
     category: "twitter influencer",
     language: "French",
@@ -216,6 +262,7 @@ export const products = [
     price: 2000,
   },
   {
+    id: 1,
     name: "टेलीग्राम प्रभावकार",
     category: "Telegram Influencer",
     language: "Hindi",
@@ -224,6 +271,7 @@ export const products = [
     price: 1500,
   },
   {
+    id: 1,
     name: "YouTube Infuencer",
     category: "Youtube influencers",
     language: "Russian",
@@ -232,6 +280,7 @@ export const products = [
     price: 2300,
   },
   {
+    id: 1,
     name: "تأثير الإنستغرام",
     category: "instagram influencers",
     language: "Arabic",

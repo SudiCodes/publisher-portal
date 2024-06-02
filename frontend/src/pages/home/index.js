@@ -1,8 +1,9 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { products } from '../../assests/marketplace';
 import ProductCard from '../../components/productCard';
 import FilterPanel from "../../components/filterPanel";
+import { Link } from 'react-router-dom';
 
 function Home() {
   const [filteredProducts, setFilteredProducts] = useState(products);
@@ -34,7 +35,10 @@ function Home() {
           <Row>
             {filteredProducts.map((product, index) => (
               <Col key={index} sm={12} md={6} lg={4}>
-                <ProductCard product={product} />
+                {/* Wrap ProductCard in a Link to navigate to ProductDetail */}
+                <Link to={`/product/${product.id}`} style={{ textDecoration: 'none' }}>
+                  <ProductCard product={product} />
+                </Link>
               </Col>
             ))}
           </Row>
